@@ -25,3 +25,40 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Setup/Installation Requirements
+* Clone the application using git clone(this copies the app onto your device):
+* `git-clone`
+* Install required node packages:
+* `npm install`
+* Serve the application:
+* `ng serve`
+* open localhost on your browser to use application
+
+## Future Improvemnts
+Improve validation on info typed. Add repo serach
+
+## Technologies Used
+* HTML
+* CSS(Bootstrap)
+* JavaScript
+* Angular 7
+
+## Behaviour driven development/ input and output checking
+* The user will load the page and search for users github profiles.
+
+
+| Behaviour                     | Sample input             | Expected output                                         |
+|-------------------------------|--------------------------|-------------------------------------------|
+| Submit search form            | Click submit button      | Returns search result            |
+|                | |                     |
+
+## Support and contact details
+For any questions, troubleshooting or contributions,  find me on:
+* Mobile: +254724443879
+* Email: wkudoi@gmail.com
+
+### License
+MIT License
+Copyright (c) {2019} **K-Wayne**
+
