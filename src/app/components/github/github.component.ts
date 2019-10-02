@@ -14,13 +14,13 @@ export class GithubComponent implements OnInit {
   constructor(private profileService: GithubService) {
 
   }
-  findProfile() {
-    this.profileService.updateProfile(this.username);
+  profileSearch() {
+    this.profileService.profileUpdate(this.username);
     this.profileService.getProfileInfo().subscribe(profile => {
       console.log(profile);
       this.profile = profile;
     });
-    this.profileService.getProfileRepos().subscribe(repos => {
+    this.profileService.reposAccess().subscribe(repos => {
       console.log(repos);
       this.repos = repos;
     });
